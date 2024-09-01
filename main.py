@@ -5,8 +5,10 @@ A simple GUI application to view G-Shock watch models by series and subseries.
 """
 
 # Standard library imports.
-import tkinter as tk
+import os
+import sys
 import threading
+import tkinter as tk
 
 from PIL import Image, ImageTk
 from tkinter import Canvas, Frame
@@ -45,7 +47,7 @@ def update_subseries(event, df, series_listbox, subseries_listbox, models_listbo
 
         # Clear the models listbox since a new series has been selected.
         models_listbox.delete(0, tk.END)
-        
+
         # Clear the image canvas to remove any previously displayed image.
         image_canvas.delete("all")
 
@@ -205,12 +207,24 @@ def setup_ui(root, df, selected_series_global, image_cache):
     return image_canvas
 
 
+def resource_path(relative_path):
+    """ Get the absolute path to the resource, works for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+
 def main():
     """
     Main function to run the G-Shock Database Viewer application.
     """
     # Load the data from the CSV file into a pandas DataFrame.
-    df = pd.read_csv("shockbase.csv")
+    csv_path = resource_path("shockbase.csv")
+    df = pd.read_csv(csv_path)
 
     # Global variable to store the selected series (using a list to allow modification).
     selected_series_global = [None]
