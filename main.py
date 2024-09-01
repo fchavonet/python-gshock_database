@@ -20,7 +20,7 @@ import requests
 from io import BytesIO
 
 
-def update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global):
+def update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label):
     """
     Update the subseries Listbox based on the selected series.
     """
@@ -51,8 +51,12 @@ def update_subseries(event, df, series_listbox, subseries_listbox, models_listbo
         # Clear the image canvas to remove any previously displayed image.
         image_canvas.delete("all")
 
+        # Update the status bar to display the number of subseries.
+        status_left_label.config(text=f"{len(subseries)} subseries.")
+        status_right_label.config(text="")
 
-def update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global):
+
+def update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label):
     """
     Update the models Listbox based on the selected subseries.
     """
@@ -81,6 +85,10 @@ def update_models(event, df, subseries_listbox, models_listbox, image_canvas, se
             # Populate the models listbox with the retrieved models.
             for model in models:
                 models_listbox.insert(tk.END, model)
+
+            # Update the status bar to display the number of models.
+            status_left_label.config(text=f"{len(models)} models.")
+            status_right_label.config(text="")
 
 
 def fetch_image(image_url, image_cache, image_canvas, image_padding):
@@ -124,9 +132,9 @@ def fetch_image(image_url, image_cache, image_canvas, image_padding):
     return tk_image
 
 
-def display_image(event, df, models_listbox, image_canvas, image_cache, image_padding):
+def display_image(event, df, models_listbox, image_canvas, image_cache, image_padding, status_left_label, status_right_label):
     """
-    Display the image associated with the selected model.
+    Display the image associated with the selected model and update the status bar with the model year.
     """
     # Get the currently selected model from the models_listbox.
     model_selection = models_listbox.curselection()
@@ -138,6 +146,9 @@ def display_image(event, df, models_listbox, image_canvas, image_cache, image_pa
 
         # Get the URL of the image associated with the selected model.
         image_url = df[df["Watch Model"] == selected_model]["Image URL"].values[0]
+
+        # Get the year of the selected model.
+        model_year = df[df["Watch Model"] == selected_model]["Year"].values[0]
 
         def show_image():
             # Fetch and display the image in the canvas.
@@ -151,6 +162,9 @@ def display_image(event, df, models_listbox, image_canvas, image_cache, image_pa
         # Load the image in a separate thread to keep the UI responsive.
         threading.Thread(target=show_image).start()
 
+        # Update the status bar to include the model year.
+        status_right_label.config(text=f"{model_year}")
+
 
 def setup_ui(root, df, selected_series_global, image_cache):
     """
@@ -159,49 +173,83 @@ def setup_ui(root, df, selected_series_global, image_cache):
     # Define a padding for the image display.
     image_padding = 10
 
-    # Create scrollbars for the series, subseries, and models listboxes.
-    series_scrollbar = tk.Scrollbar(root)
-    subseries_scrollbar = tk.Scrollbar(root)
-    models_scrollbar = tk.Scrollbar(root)
+    # Create a main horizontal frame
+    main_frame = tk.Frame(root)
+    main_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=(10, 0), padx=10)
 
-    # Create Listboxes for series, subseries, and models, and attach the corresponding scrollbars.
-    series_listbox = tk.Listbox(root, yscrollcommand=series_scrollbar.set, exportselection=False)
-    subseries_listbox = tk.Listbox(root, yscrollcommand=subseries_scrollbar.set, exportselection=False)
-    models_listbox = tk.Listbox(root, yscrollcommand=models_scrollbar.set, exportselection=False)
+    # Create the series frame, label and listbox.
+    series_frame = tk.Frame(main_frame)
+    series_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-    # Configure the scrollbars to control the vertical scrolling of their respective listboxes.
-    series_scrollbar.config(command=series_listbox.yview)
-    subseries_scrollbar.config(command=subseries_listbox.yview)
-    models_scrollbar.config(command=models_listbox.yview)
+    series_label = tk.Label(series_frame, text="Series")
+    series_label.pack(side=tk.TOP)
+
+    series_listbox = tk.Listbox(series_frame, exportselection=False)
+    series_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+    series_scrollbar = tk.Scrollbar(series_frame, command=series_listbox.yview)
+    series_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+    series_listbox.config(yscrollcommand=series_scrollbar.set)
+
+    # Create the subseries frame, label and listbox.
+    subseries_frame = tk.Frame(main_frame)
+    subseries_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0))
+
+    subseries_label = tk.Label(subseries_frame, text="Subseries")
+    subseries_label.pack(side=tk.TOP)
+
+    subseries_listbox = tk.Listbox(subseries_frame, exportselection=False)
+    subseries_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+    subseries_scrollbar = tk.Scrollbar(subseries_frame, command=subseries_listbox.yview)
+    subseries_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+    subseries_listbox.config(yscrollcommand=subseries_scrollbar.set)
+
+    # Create the models frame, label and listbox.
+    models_frame = tk.Frame(main_frame)
+    models_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0))
+
+    models_label = tk.Label(models_frame, text="Models")
+    models_label.pack(side=tk.TOP)
+
+    models_listbox = tk.Listbox(models_frame, exportselection=False)
+    models_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+    models_scrollbar = tk.Scrollbar(models_frame, command=models_listbox.yview)
+    models_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+    models_listbox.config(yscrollcommand=models_scrollbar.set)
+
+    # Bind selection events to their respective update functions for series and subseries listboxes.
+    series_listbox.bind("<<ListboxSelect>>", lambda event: update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label))
+    subseries_listbox.bind("<<ListboxSelect>>", lambda event: update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label))
+    models_listbox.bind("<<ListboxSelect>>", lambda event: display_image(event, df, models_listbox, image_canvas, image_cache, image_padding, status_left_label, status_right_label))
+
+    # Create the picture frame, label and canas.
+    picture_frame = tk.Frame(main_frame)
+    picture_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0))
+
+    picture_label = tk.Label(picture_frame, text="Picture")
+    picture_label.pack(side=tk.TOP)
+
+    image_frame = Frame(picture_frame, bd=1, bg="white", relief=tk.SOLID)
+    image_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+    image_canvas = Canvas(image_frame, bg="white", highlightthickness=0)
+    image_canvas.pack(fill=tk.BOTH, expand=True)
+
+    # Create a status bar frame.
+    status_frame = tk.Frame(root)
+    status_frame.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=(0, 10))
+
+    # Create status bar labels for left and right sides.
+    status_left_label = tk.Label(status_frame, text="Select a series...", anchor=tk.W)
+    status_left_label.pack(side=tk.LEFT)
+
+    status_right_label = tk.Label(status_frame, text="", anchor=tk.E)
+    status_right_label.pack(side=tk.RIGHT)
 
     # Populate the series listbox with unique series from the DataFrame.
     for item in df["Series"].unique():
         series_listbox.insert(tk.END, item)
-
-    # Bind selection events to their respective update functions for series and subseries listboxes.
-    series_listbox.bind("<<ListboxSelect>>", lambda event: update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global))
-    subseries_listbox.bind("<<ListboxSelect>>", lambda event: update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global))
-    models_listbox.bind("<<ListboxSelect>>", lambda event: display_image(event, df, models_listbox, image_canvas, image_cache, image_padding))
-
-    # Arrange the series listbox and its scrollbar in the main window with padding.
-    series_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0), pady=10)
-    series_scrollbar.pack(side=tk.LEFT, fill=tk.Y, pady=10)
-
-    # Arrange the subseries listbox and its scrollbar in the main window with padding.
-    subseries_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0), pady=10)
-    subseries_scrollbar.pack(side=tk.LEFT, fill=tk.Y, pady=10)
-
-    # Arrange the models listbox and its scrollbar in the main window with padding.
-    models_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0), pady=10)
-    models_scrollbar.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 10), pady=10)
-
-    # Create a frame with a border for the image display.
-    image_frame = Frame(root, width=400, height=400, bd=1, bg="white", relief=tk.SOLID)
-    image_frame.pack(side=tk.RIGHT, fill=tk.BOTH, padx=(0, 10), pady=10)
-
-    # Create a canvas for image display with padding inside the frame.
-    image_canvas = Canvas(image_frame, bg="white", highlightthickness=0)
-    image_canvas.pack(fill=tk.BOTH, expand=True)
 
     # Return the image canvas for further use.
     return image_canvas
@@ -225,6 +273,9 @@ def main():
     # Load the data from the CSV file into a pandas DataFrame.
     csv_path = resource_path("shockbase.csv")
     df = pd.read_csv(csv_path)
+
+    # Convert the "Year" column to integers (removes .0)
+    df["Year"] = df["Year"].fillna(0).astype(int)
 
     # Global variable to store the selected series (using a list to allow modification).
     selected_series_global = [None]
