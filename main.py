@@ -184,15 +184,15 @@ def setup_ui(root, df, selected_series_global, image_cache):
     models_listbox.bind("<<ListboxSelect>>", lambda event: display_image(event, df, models_listbox, image_canvas, image_cache, image_padding))
 
     # Arrange the series listbox and its scrollbar in the main window with padding.
-    series_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 2), pady=10)
+    series_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0), pady=10)
     series_scrollbar.pack(side=tk.LEFT, fill=tk.Y, pady=10)
 
     # Arrange the subseries listbox and its scrollbar in the main window with padding.
-    subseries_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 2), pady=10)
+    subseries_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0), pady=10)
     subseries_scrollbar.pack(side=tk.LEFT, fill=tk.Y, pady=10)
 
     # Arrange the models listbox and its scrollbar in the main window with padding.
-    models_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 2), pady=10)
+    models_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(10, 0), pady=10)
     models_scrollbar.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 10), pady=10)
 
     # Create a frame with a border for the image display.
@@ -200,7 +200,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
     image_frame.pack(side=tk.RIGHT, fill=tk.BOTH, padx=(0, 10), pady=10)
 
     # Create a canvas for image display with padding inside the frame.
-    image_canvas = Canvas(image_frame, bg="white")
+    image_canvas = Canvas(image_frame, bg="white", highlightthickness=0)
     image_canvas.pack(fill=tk.BOTH, expand=True)
 
     # Return the image canvas for further use.
