@@ -52,7 +52,7 @@ def update_subseries(event, df, series_listbox, subseries_listbox, models_listbo
         image_canvas.delete("all")
 
         # Update the status bar to display the number of subseries.
-        status_left_label.config(text=f"{len(subseries)} subseries.")
+        status_left_label.config(text=f"{len(subseries)} subseries")
         status_right_label.config(text="")
 
 
@@ -87,7 +87,7 @@ def update_models(event, df, subseries_listbox, models_listbox, image_canvas, se
                 models_listbox.insert(tk.END, model)
 
             # Update the status bar to display the number of models.
-            status_left_label.config(text=f"{len(models)} models.")
+            status_left_label.config(text=f"{len(models)} models")
             status_right_label.config(text="")
 
 
@@ -289,7 +289,7 @@ def main():
 
     # Set the size and position of the window.
     window_width = 1000
-    window_height = 400
+    window_height = 500
     root.geometry(f"{window_width}x{window_height}")
     root.resizable(False, False)
 
