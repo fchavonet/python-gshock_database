@@ -1,4 +1,4 @@
-<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/resources/images/logo-python.png" alt="Python logo">
+<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-python.png" alt="Python logo">
 
 # G-Shock Database
 
@@ -18,7 +18,7 @@
         <br>
         💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
         <br>
-        🔧 <a href="#whats-next">What's next ?</a>
+        🔧 <a href="#whats-next">What's next?</a>
         <br>
         ♥️ <a href="#thanks">Thanks</a>
         <br>
@@ -33,7 +33,11 @@ This project was inspired by my passion for G-Shock watches and serves as a tool
 
 ## 🎓 <span id="objectives">Objectives</span>
 
-The aim of this project was to improve my skills in web scraping and GUI development with Python. By creating a functional tool centered around a subject I care about, I sought to gain hands-on experience with data processing, user interface design, and the integration of these components into a cohesive project.
+- Enhance my skills in web scraping using Python.
+- Develop a graphical user interface (GUI) to present and interact with the collected data.
+- Gain hands-on experience in data processing and structuring scraped information.
+- Explore user interface design principles for an intuitive browsing experience.
+- Integrate web scraping and GUI development into a cohesive and functional application.
 
 ## 🔨 <span id="tech-stack">Tech stack</span>
 
@@ -41,6 +45,8 @@ The aim of this project was to improve my skills in web scraping and GUI develop
     <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
     <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
     <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
 </p>
 
 ## 📂 <span id="files-description">File description</span>
@@ -51,9 +57,9 @@ The aim of this project was to improve my skills in web scraping and GUI develop
 | `shockbase_scraper.py` | Script to scrape data from the ShockBase website.     |
 | `gshock_database.py`   | Main script to launch the application.                |
 | `shockbase.csv`        | Local database generated from the scraping process.   |
-| `requirements.txt`     | Lists the dependencies required to run the project.   |
-| `.gitignore`           | Specifies files and directories to be ignored by Git. |
-| `README.md`            | The readme file you are currently reading 😉.         |
+| `requirements.txt`     | List of dependencies required for the script.         |
+| `.gitignore`           | Specifies files and folders to be ignored by Git.     |
+| `README.md`            | The README file you are currently reading 😉.         |
 
 ## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
 
@@ -70,8 +76,6 @@ git clone https://github.com/fchavonet/python-gshock_database.git
 
 2. Open the repository you've just cloned.
 
-3. Ensure Python is installed.
-
 4. Create a virtual environment:
 
 ```
@@ -80,19 +84,11 @@ python3 -m venv venv
 
 5. Activate the virtual environment:
 
-- On Linux/macOS:
-
 ```
 source venv/bin/activate
 ```
 
-- On Windows:
-
-```
-venv\Scripts\activate
-```
-
-6. Install the required packages:
+6. Install dependencies:
 
 ```
 pip install -r requirements.txt
@@ -103,20 +99,20 @@ pip install -r requirements.txt
 1. Run the `shockbase_scraper.py` script to scrape the data:
 
 ```
-./shockbase_scraper.py
+python shockbase_scraper.py
 ```
 
 2. Launch the application:
 
 ```
-./gshock_database.py
+python gshock_database.py
 ```
 
 <p align="center">
-    <img src="./assets/images/screenshot-gshock_database.webp">
+    <img src="./assets/images/screenshot.webp">
 </p>
 
-## 🔧 <span id="whats-next">What's next ?</span>
+## 🔧 <span id="whats-next">What's next?</span>
 
 - Add a search engine.
 - Implement a sorting menu to organize results by release date or other criteria.
