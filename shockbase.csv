@@ -24,6 +24,7 @@ Series,Subseries,Watch Model,Year,Image URL
 000,GT-000 [1633],GT-000D-7,1997,https://shockbase.org/pics2/000/GT-000/GT-000D-7.png
 000,GT-000 [1633],GT-000D-8,1997,https://shockbase.org/pics2/000/GT-000/GT-000D-8.png
 000,GT-000 [1633],GT-000L-1,1997,https://shockbase.org/pics2/000/GT-000/GT-000L-1.png
+001,CRW-001 [3573],CRW-001-1,2024,https://shockbase.org/pics2/001/CRW-001/CRW-001-1.png
 001,DW-001 [1210],DW-001-1AV,1997,https://shockbase.org/pics2/001/DW-001/DW-001-1AV.png
 001,DW-001 [1210],DW-001-1BV,1997,https://shockbase.org/pics2/001/DW-001/DW-001-1BV.png
 001,DW-001 [1211],DW-001J-1,1994,https://shockbase.org/pics2/001/DW-001/DW-001J-1.png
@@ -82,6 +83,10 @@ Series,Subseries,Watch Model,Year,Image URL
 001,GT-001 [1695],GT-001P-1,1998,https://shockbase.org/pics2/001/GT-001/GT-001P-1.png
 001,GT-001 [1698],GT-001P-1T,1998,https://shockbase.org/pics2/001/GT-001/GT-001P-1T.png
 001,GT-001 [1698],GT-001P-7T,1998,https://shockbase.org/pics2/001/GT-001/GT-001P-7T.png
+01,GA-V01 [5751],GA-V01-1A,2025,https://shockbase.org/pics2/01/GA-V01/GA-V01-1A.png
+01,GA-V01 [5751],GA-V01-2A,2025,https://shockbase.org/pics2/01/GA-V01/GA-V01-2A.png
+01,GA-V01 [5751],GA-V01-9A,2025,https://shockbase.org/pics2/01/GA-V01/GA-V01-9A.png
+01,GA-V01 [5751],GA-V01A-8A,2025,https://shockbase.org/pics2/01/GA-V01/GA-V01A-8A.png
 002,DW-002 [1289],DW-002DJ-1,1996,https://shockbase.org/pics2/002/DW-002/DW-002DJ-1.png
 002,DW-002 [1289],DW-002DJ-9,1996,https://shockbase.org/pics2/002/DW-002/DW-002DJ-9.png
 002,DW-002 [1289],DW-002N-1V,1996,https://shockbase.org/pics2/002/DW-002/DW-002N-1V.png
@@ -372,11 +377,15 @@ Series,Subseries,Watch Model,Year,Image URL
 009,GT-009 [1835],GT-009B-2,1998,https://shockbase.org/pics2/009/GT-009/GT-009B-2.png
 009,GT-009 [1835],GT-009B-7,1998,https://shockbase.org/pics2/009/GT-009/GT-009B-7.png
 010,GA-010 [5735],GA-010-1A,2024,https://shockbase.org/pics2/010/GA-010/GA-010-1A.png
+010,GA-010 [5735],GA-010-1A1,2025,https://shockbase.org/pics2/010/GA-010/GA-010-1A1.png
 010,GA-010 [5735],GA-010-2A,2024,https://shockbase.org/pics2/010/GA-010/GA-010-2A.png
 010,GA-010 [5735],GA-010-5A,2024,https://shockbase.org/pics2/010/GA-010/GA-010-5A.png
+010,GA-010 [5735],GA-010CE-2A,2025,https://shockbase.org/pics2/010/GA-010/GA-010CE-2A.png
 010,GD-010 [3569],GD-010-1,2024,https://shockbase.org/pics2/010/GD-010/GD-010-1.png
+010,GD-010 [3569],GD-010-1A1,2025,https://shockbase.org/pics2/010/GD-010/GD-010-1A1.png
 010,GD-010 [3569],GD-010-3,2024,https://shockbase.org/pics2/010/GD-010/GD-010-3.png
 010,GD-010 [3569],GD-010-4,2024,https://shockbase.org/pics2/010/GD-010/GD-010-4.png
+010,GD-010 [3569],GD-010CE-5,2025,https://shockbase.org/pics2/010/GD-010/GD-010CE-5.png
 011,G-011 [4762],G-011AD-2B,2007,https://shockbase.org/pics2/011/G-011/G-011AD-2B.png
 011,G-011 [4762],G-011AD-3B,2007,https://shockbase.org/pics2/011/G-011/G-011AD-3B.png
 011,G-011 [4762],G-011AD-4B,2007,https://shockbase.org/pics2/011/G-011/G-011AD-4B.png
@@ -475,6 +484,7 @@ Series,Subseries,Watch Model,Year,Image URL
 100,AWG-M100 [5230],AWG-M100F-1A,2013,https://shockbase.org/pics2/100/AWG-M100/AWG-M100F-1A.png
 100,AWG-M100 [5230],AWG-M100F-1B,2014,https://shockbase.org/pics2/100/AWG-M100/AWG-M100F-1B.png
 100,AWG-M100 [5230],AWG-M100F-1C,2015,https://shockbase.org/pics2/100/AWG-M100/AWG-M100F-1C.png
+100,AWG-M100 [5230],AWG-M100FP-1A2,2025,https://shockbase.org/pics2/100/AWG-M100/AWG-M100FP-1A2.png
 100,AWG-M100 [5230],AWG-M100FP-1A4,2024,https://shockbase.org/pics2/100/AWG-M100/AWG-M100FP-1A4.png
 100,AWG-M100 [5230],AWG-M100GW-7A,2013,https://shockbase.org/pics2/100/AWG-M100/AWG-M100GW-7A.png
 100,AWG-M100 [5230],AWG-M100MR-4A,2014,https://shockbase.org/pics2/100/AWG-M100/AWG-M100MR-4A.png
@@ -614,6 +624,7 @@ Series,Subseries,Watch Model,Year,Image URL
 100,G-100 [5158],G-100-Isuzu(0),,https://shockbase.org/pics2/100/G-100/G-100-Isuzu.png
 100,G-100 [5158],G-100-Kinashi-Cycle,2017,https://shockbase.org/pics2/100/G-100/G-100-Kinashi-Cycle.png
 100,G-100 [5158],G-100-Kobelco(0),,https://shockbase.org/pics2/100/G-100/G-100-Kobelco.png
+100,G-100 [5158],G-100-MasterMind(0),,https://shockbase.org/pics2/100/G-100/G-100-MasterMind.png
 100,G-100 [5158],G-100-Unicorn(0),,https://shockbase.org/pics2/100/G-100/G-100-Unicorn.png
 100,G-100 [5158],G-100BB-1A,2016,https://shockbase.org/pics2/100/G-100/G-100BB-1A.png
 100,G-100 [5158],G-100CU-2A,2017,https://shockbase.org/pics2/100/G-100/G-100CU-2A.png
@@ -789,6 +800,7 @@ Series,Subseries,Watch Model,Year,Image URL
 100,GD-100 [3263],GD-100-Rays-Black,2016,https://shockbase.org/pics2/100/GD-100/GD-100-Rays-Black.png
 100,GD-100 [3263],GD-100-Rays-White,2015,https://shockbase.org/pics2/100/GD-100/GD-100-Rays-White.png
 100,GD-100 [3263],GD-100-Suntory(0),,https://shockbase.org/pics2/100/GD-100/GD-100-Suntory.png
+100,GD-100 [3263],GD-100-Suzuki-Jimny,2025,https://shockbase.org/pics2/100/GD-100/GD-100-Suzuki-Jimny.png
 100,GD-100 [3263],GD-100-Vertex,2017,https://shockbase.org/pics2/100/GD-100/GD-100-Vertex.png
 100,GD-100 [3263],GD-100-XLARGE,2013,https://shockbase.org/pics2/100/GD-100/GD-100-XLARGE.png
 100,GD-100 [3263],GD-100BW-1,2012,https://shockbase.org/pics2/100/GD-100/GD-100BW-1.png
@@ -946,6 +958,8 @@ Series,Subseries,Watch Model,Year,Image URL
 110,GA-110 [5146],GA-110AC-7A,2013,https://shockbase.org/pics2/110/GA-110/GA-110AC-7A.png
 110,GA-110 [5146],GA-110ALIFE21-8A,2022,https://shockbase.org/pics2/110/GA-110/GA-110ALIFE21-8A.png
 110,GA-110 [5146],GA-110APE-5A,2018,https://shockbase.org/pics2/110/GA-110/GA-110APE-5A.png
+110,GA-110 [5146],GA-110AS-2A,2025,https://shockbase.org/pics2/110/GA-110/GA-110AS-2A.png
+110,GA-110 [5146],GA-110AS-5A,2025,https://shockbase.org/pics2/110/GA-110/GA-110AS-5A.png
 110,GA-110 [5146],GA-110B-1A2,2010,https://shockbase.org/pics2/110/GA-110/GA-110B-1A2.png
 110,GA-110 [5146],GA-110B-1A3,2010,https://shockbase.org/pics2/110/GA-110/GA-110B-1A3.png
 110,GA-110 [5146],GA-110B-1A3-MountainDew(0),,https://shockbase.org/pics2/110/GA-110/GA-110B-1A3-MountainDew.png
@@ -1152,7 +1166,9 @@ Series,Subseries,Watch Model,Year,Image URL
 110,GM-110 [5553],GM-110-1A,2020,https://shockbase.org/pics2/110/GM-110/GM-110-1A.png
 110,GM-110 [5553],GM-110B-1A,2020,https://shockbase.org/pics2/110/GM-110/GM-110B-1A.png
 110,GM-110 [5553],GM-110BB-1A,2023,https://shockbase.org/pics2/110/GM-110/GM-110BB-1A.png
+110,GM-110 [5553],GM-110BD-1A9,2025,https://shockbase.org/pics2/110/GM-110/GM-110BD-1A9.png
 110,GM-110 [5553],GM-110CL-6A,2023,https://shockbase.org/pics2/110/GM-110/GM-110CL-6A.png
+110,GM-110 [5553],GM-110D-8A,2025,https://shockbase.org/pics2/110/GM-110/GM-110D-8A.png
 110,GM-110 [5553],GM-110EARTH-1A,2022,https://shockbase.org/pics2/110/GM-110/GM-110EARTH-1A.png
 110,GM-110 [5553],GM-110G-1A9,2020,https://shockbase.org/pics2/110/GM-110/GM-110G-1A9.png
 110,GM-110 [5553],GM-110GC-1A,2024,https://shockbase.org/pics2/110/GM-110/GM-110GC-1A.png
@@ -1173,6 +1189,7 @@ Series,Subseries,Watch Model,Year,Image URL
 110,GM-S110 [5706],GM-S110PG-1A,2022,https://shockbase.org/pics2/110/GM-S110/GM-S110PG-1A.png
 110,GM-S110 [5706],GM-S110PG-4A,2023,https://shockbase.org/pics2/110/GM-S110/GM-S110PG-4A.png
 110,GM-S110 [5706],GM-S114GEM-1A2,2023,https://shockbase.org/pics2/110/GM-S110/GM-S114GEM-1A2.png
+110,GMA-S110 [5425],GMA-S110BE-4A,2025,https://shockbase.org/pics2/110/GMA-S110/GMA-S110BE-4A.png
 110,GMA-S110 [5425],GMA-S110CC-2A,2014,https://shockbase.org/pics2/110/GMA-S110/GMA-S110CC-2A.png
 110,GMA-S110 [5425],GMA-S110CC-3A,2014,https://shockbase.org/pics2/110/GMA-S110/GMA-S110CC-3A.png
 110,GMA-S110 [5425],GMA-S110CC-4A,2014,https://shockbase.org/pics2/110/GMA-S110/GMA-S110CC-4A.png
@@ -1392,6 +1409,7 @@ Series,Subseries,Watch Model,Year,Image URL
 140,GMA-S140 [5613],GMA-S140NC-5A2,2020,https://shockbase.org/pics2/140/GMA-S140/GMA-S140NC-5A2.png
 140,GMA-S140 [5613],GMA-S140NC-7A,2020,https://shockbase.org/pics2/140/GMA-S140/GMA-S140NC-7A.png
 140,GMA-S140 [5613],GMA-S140NP-4A,2021,https://shockbase.org/pics2/140/GMA-S140/GMA-S140NP-4A.png
+140,GMA-S140 [5613],GMA-S140PP-4A,2025,https://shockbase.org/pics2/140/GMA-S140/GMA-S140PP-4A.png
 140,GMA-S140 [5613],GMA-S140VA-7A,2024,https://shockbase.org/pics2/140/GMA-S140/GMA-S140VA-7A.png
 150,GA-150 [5255],GA-150-1A,2012,https://shockbase.org/pics2/150/GA-150/GA-150-1A.png
 150,GA-150 [5255],GA-150-7A,2012,https://shockbase.org/pics2/150/GA-150/GA-150-7A.png
@@ -1502,6 +1520,7 @@ Series,Subseries,Watch Model,Year,Image URL
 1000,GPR-B1000 [3452],GPR-B1000TLC-1,2018,https://shockbase.org/pics2/1000/GPR-B1000/GPR-B1000TLC-1.png
 1000,GPR-H1000 [3554],GPR-H1000-1,2024,https://shockbase.org/pics2/1000/GPR-H1000/GPR-H1000-1.png
 1000,GPR-H1000 [3554],GPR-H1000-9,2024,https://shockbase.org/pics2/1000/GPR-H1000/GPR-H1000-9.png
+1000,GPR-H1000 [3554],GPR-H1000RY-1A9,2025,https://shockbase.org/pics2/1000/GPR-H1000/GPR-H1000RY-1A9.png
 1000,GPW-1000 [5410],GPW-1000-1A,2014,https://shockbase.org/pics2/1000/GPW-1000/GPW-1000-1A.png
 1000,GPW-1000 [5410],GPW-1000-1B,2014,https://shockbase.org/pics2/1000/GPW-1000/GPW-1000-1B.png
 1000,GPW-1000 [5410],GPW-1000-2A,2014,https://shockbase.org/pics2/1000/GPW-1000/GPW-1000-2A.png
@@ -2159,6 +2178,7 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,GA-2100 [5611],GA-2100-7A7,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100-7A7.png
 2100,GA-2100 [5611],GA-2100-9A9,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100-9A9.png
 2100,GA-2100 [5611],GA-2100-Garigari-Kun,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2100-Garigari-Kun.png
+2100,GA-2100 [5611],GA-2100-KFC,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100-KFC.png
 2100,GA-2100 [5611],GA-2100-Pyra,2022,https://shockbase.org/pics2/2100/GA-2100/GA-2100-Pyra.png
 2100,GA-2100 [5611],GA-2100AG24-1A1,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100AG24-1A1.png
 2100,GA-2100 [5611],GA-2100AH-6A,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2100AH-6A.png
@@ -2169,6 +2189,8 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,GA-2100 [5611],GA-2100FF-8A,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2100FF-8A.png
 2100,GA-2100 [5611],GA-2100FL-1A,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100FL-1A.png
 2100,GA-2100 [5611],GA-2100FL-8A,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100FL-8A.png
+2100,GA-2100 [5611],GA-2100FLS-8A2,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100FLS-8A2.png
+2100,GA-2100 [5611],GA-2100FLS-8A4,2024,https://shockbase.org/pics2/2100/GA-2100/GA-2100FLS-8A4.png
 2100,GA-2100 [5611],GA-2100FR-3A,2021,https://shockbase.org/pics2/2100/GA-2100/GA-2100FR-3A.png
 2100,GA-2100 [5611],GA-2100FR-5A,2021,https://shockbase.org/pics2/2100/GA-2100/GA-2100FR-5A.png
 2100,GA-2100 [5611],GA-2100FT-8A,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2100FT-8A.png
@@ -2217,6 +2239,9 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,GA-2100 [5611],GA-2110SU-3A,2020,https://shockbase.org/pics2/2100/GA-2100/GA-2110SU-3A.png
 2100,GA-2100 [5611],GA-2110SU-9A,2020,https://shockbase.org/pics2/2100/GA-2100/GA-2110SU-9A.png
 2100,GA-2100 [5611],GA-2140RE-1A,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2140RE-1A.png
+2100,GA-2100 [5711],GA-2100AS-2A,2025,https://shockbase.org/pics2/2100/GA-2100/GA-2100AS-2A.png
+2100,GA-2100 [5711],GA-2100AS-5A,2025,https://shockbase.org/pics2/2100/GA-2100/GA-2100AS-5A.png
+2100,GA-2100 [5711],GA-2100CARP25-4,2025,https://shockbase.org/pics2/2100/GA-2100/GA-2100CARP25-4.png
 2100,GA-2100 [5711],GA-2100NNJ-8A,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2100NNJ-8A.png
 2100,GA-2100 [5711],GA-2140RX-7A,2023,https://shockbase.org/pics2/2100/GA-2100/GA-2140RX-7A.png
 2100,GA-B2100 [5689],GA-B2100-1A,2022,https://shockbase.org/pics2/2100/GA-B2100/GA-B2100-1A.png
@@ -2270,6 +2295,9 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,GM-2100 [5611],GM-2100RW-1A,2024,https://shockbase.org/pics2/2100/GM-2100/GM-2100RW-1A.png
 2100,GM-2100 [5611],GM-2100SS-1A,2022,https://shockbase.org/pics2/2100/GM-2100/GM-2100SS-1A.png
 2100,GM-2100 [5611],GM-2100WS-7A,2023,https://shockbase.org/pics2/2100/GM-2100/GM-2100WS-7A.png
+2100,GM-2100 [5611],GM-2100YM-8A,2025,https://shockbase.org/pics2/2100/GM-2100/GM-2100YM-8A.png
+2100,GM-2100 [5611],GM-2100YMG-9A,2025,https://shockbase.org/pics2/2100/GM-2100/GM-2100YMG-9A.png
+2100,GM-2100 [5611],GM-2100YMG-9A9,2025,https://shockbase.org/pics2/2100/GM-2100/GM-2100YMG-9A9.png
 2100,GM-2100 [5611],GM-2140GEM-2A,2023,https://shockbase.org/pics2/2100/GM-2100/GM-2140GEM-2A.png
 2100,GM-2110 [5611],GM-2110D-2A,2024,https://shockbase.org/pics2/2100/GM-2110/GM-2110D-2A.png
 2100,GM-2110 [5611],GM-2110D-2B,2024,https://shockbase.org/pics2/2100/GM-2110/GM-2110D-2B.png
@@ -2305,12 +2333,19 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,GM-S2110 [5730],GM-S2110-4A,2024,https://shockbase.org/pics2/2100/GM-S2110/GM-S2110-4A.png
 2100,GM-S2110 [5730],GM-S2110-7A6,2024,https://shockbase.org/pics2/2100/GM-S2110/GM-S2110-7A6.png
 2100,GM-S2110 [5730],GM-S2110-7A9,2024,https://shockbase.org/pics2/2100/GM-S2110/GM-S2110-7A9.png
+2100,GM-S2110 [5730],GM-S2110B-8A,2025,https://shockbase.org/pics2/2100/GM-S2110/GM-S2110B-8A.png
+2100,GM-S2110 [5730],GM-S2110PG-1A4,2025,https://shockbase.org/pics2/2100/GM-S2110/GM-S2110PG-1A4.png
+2100,GM-S2110 [5730],GM-S2110PG-4A,2025,https://shockbase.org/pics2/2100/GM-S2110/GM-S2110PG-4A.png
 2100,GMA-P2100 [5730],GMA-P2100-2A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100-2A.png
 2100,GMA-P2100 [5730],GMA-P2100-4A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100-4A.png
 2100,GMA-P2100 [5730],GMA-P2100-7A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100-7A.png
 2100,GMA-P2100 [5730],GMA-P2100BB-1A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100BB-1A.png
 2100,GMA-P2100 [5730],GMA-P2100IT-4A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100IT-4A.png
 2100,GMA-P2100 [5730],GMA-P2100IT-7A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100IT-7A.png
+2100,GMA-P2100 [5730],GMA-P2100M-2A,2025,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100M-2A.png
+2100,GMA-P2100 [5730],GMA-P2100M-4A,2025,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100M-4A.png
+2100,GMA-P2100 [5730],GMA-P2100M-7A,2025,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100M-7A.png
+2100,GMA-P2100 [5730],GMA-P2100PP-4A,2025,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100PP-4A.png
 2100,GMA-P2100 [5730],GMA-P2100SG-1A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100SG-1A.png
 2100,GMA-P2100 [5730],GMA-P2100SG-2A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100SG-2A.png
 2100,GMA-P2100 [5730],GMA-P2100SG-4A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100SG-4A.png
@@ -2320,6 +2355,7 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,GMA-P2100 [5730],GMA-P2100VA-7A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100VA-7A.png
 2100,GMA-P2100 [5730],GMA-P2100W-7A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100W-7A.png
 2100,GMA-P2100 [5730],GMA-P2100ZY-1A,2024,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2100ZY-1A.png
+2100,GMA-P2100 [5730],GMA-P2125W-6A,2025,https://shockbase.org/pics2/2100/GMA-P2100/GMA-P2125W-6A.png
 2100,GMA-S2100 [5611],GMA-S2100-1A,2021,https://shockbase.org/pics2/2100/GMA-S2100/GMA-S2100-1A.png
 2100,GMA-S2100 [5611],GMA-S2100-4A,2021,https://shockbase.org/pics2/2100/GMA-S2100/GMA-S2100-4A.png
 2100,GMA-S2100 [5611],GMA-S2100-4A2,2021,https://shockbase.org/pics2/2100/GMA-S2100/GMA-S2100-4A2.png
@@ -2362,6 +2398,7 @@ Series,Subseries,Watch Model,Year,Image URL
 2100,MRG-2100 [3334],MRG-2100DJ-1A,2004,https://shockbase.org/pics2/2100/MRG-2100/MRG-2100DJ-1A.png
 2100,MRG-B2100 [5718],MRG-B2100B-1A,2024,https://shockbase.org/pics2/2100/MRG-B2100/MRG-B2100B-1A.png
 2100,MRG-B2100 [5718],MRG-B2100D-1A,2024,https://shockbase.org/pics2/2100/MRG-B2100/MRG-B2100D-1A.png
+2100,MRG-B2100 [5718],MRG-B2100R-2A,2025,https://shockbase.org/pics2/2100/MRG-B2100/MRG-B2100R-2A.png
 2200,G-2200 [2253],G-2200-1V(0),,https://shockbase.org/pics2/2200/G-2200/G-2200-1V.png
 2200,G-2200 [2253],G-2200-2AV,2000,https://shockbase.org/pics2/2200/G-2200/G-2200-2AV.png
 2200,G-2200 [2253],G-2200-2BV,2000,https://shockbase.org/pics2/2200/G-2200/G-2200-2BV.png
@@ -2430,6 +2467,7 @@ Series,Subseries,Watch Model,Year,Image URL
 2300,GA-2300 [5725],GA-2300-7A,2024,https://shockbase.org/pics2/2300/GA-2300/GA-2300-7A.png
 2300,GA-2300 [5725],GA-2300-8A,2024,https://shockbase.org/pics2/2300/GA-2300/GA-2300-8A.png
 2300,GA-2300 [5725],GA-2300FL-4A,2024,https://shockbase.org/pics2/2300/GA-2300/GA-2300FL-4A.png
+2300,GA-2300 [5725],GA-2300MW-8A,2024,https://shockbase.org/pics2/2300/GA-2300/GA-2300MW-8A.png
 2300,GW-2300 [3195],GW-2300F-4,2010,https://shockbase.org/pics2/2300/GW-2300/GW-2300F-4.png
 2300,GW-2300 [3195],GW-2300FP-4,2011,https://shockbase.org/pics2/2300/GW-2300/GW-2300FP-4.png
 2300,GW-2310 [3195],GW-2310-1,2012,https://shockbase.org/pics2/2300/GW-2310/GW-2310-1.png
@@ -2446,6 +2484,7 @@ Series,Subseries,Watch Model,Year,Image URL
 2300,GW-2320 [3195],GW-2320SF-1B4,2020,https://shockbase.org/pics2/2300/GW-2320/GW-2320SF-1B4.png
 2300,GW-2320 [3195],GW-2320SF-1B5,2022,https://shockbase.org/pics2/2300/GW-2320/GW-2320SF-1B5.png
 2300,GW-2320 [3195],GW-2320SF-1B6,2023,https://shockbase.org/pics2/2300/GW-2320/GW-2320SF-1B6.png
+2300,GW-2320 [3537],GW-2320FP-1A2,2025,https://shockbase.org/pics2/2300/GW-2320/GW-2320FP-1A2.png
 2300,GW-2320 [3537],GW-2320FP-1A4,2024,https://shockbase.org/pics2/2300/GW-2320/GW-2320FP-1A4.png
 2400,G-2400 [2223],G-2400-1V,2000,https://shockbase.org/pics2/2400/G-2400/G-2400-1V.png
 2400,G-2400 [2223],G-2400-2V,2000,https://shockbase.org/pics2/2400/G-2400/G-2400-2V.png
@@ -2547,10 +2586,14 @@ Series,Subseries,Watch Model,Year,Image URL
 300,GMD-B300 [3567],GMD-B300-1,2024,https://shockbase.org/pics2/300/GMD-B300/GMD-B300-1.png
 300,GMD-B300 [3567],GMD-B300-3,2024,https://shockbase.org/pics2/300/GMD-B300/GMD-B300-3.png
 300,GMD-B300 [3567],GMD-B300-4,2024,https://shockbase.org/pics2/300/GMD-B300/GMD-B300-4.png
+300,GMD-B300 [3567],GMD-B300SC-2,2025,https://shockbase.org/pics2/300/GMD-B300/GMD-B300SC-2.png
+300,GMD-B300 [3567],GMD-B300SC-4,2025,https://shockbase.org/pics2/300/GMD-B300/GMD-B300SC-4.png
+300,GMD-B300 [3567],GMD-B300SC-7,2025,https://shockbase.org/pics2/300/GMD-B300/GMD-B300SC-7.png
 300,GR-B300 [5719],GR-B300-1A,2024,https://shockbase.org/pics2/300/GR-B300/GR-B300-1A.png
 300,GR-B300 [5719],GR-B300-1A4,2024,https://shockbase.org/pics2/300/GR-B300/GR-B300-1A4.png
 300,GR-B300 [5719],GR-B300-8A2,2024,https://shockbase.org/pics2/300/GR-B300/GR-B300-8A2.png
 300,GR-B300 [5719],GR-B300EC-1A,2024,https://shockbase.org/pics2/300/GR-B300/GR-B300EC-1A.png
+300,GR-B300 [5719],GR-B300RY-1A9,2025,https://shockbase.org/pics2/300/GR-B300/GR-B300RY-1A9.png
 300,GS-300 [2301],GS-300-4B,1999,https://shockbase.org/pics2/300/GS-300/GS-300-4B.png
 300,GS-300 [2301],GS-300-8A,1999,https://shockbase.org/pics2/300/GS-300/GS-300-8A.png
 300,GS-300 [2301],GS-300BL-2A,2001,https://shockbase.org/pics2/300/GS-300/GS-300BL-2A.png
@@ -2976,16 +3019,16 @@ Series,Subseries,Watch Model,Year,Image URL
 500,GST-B500 [5684],GST-B500GD-9A,2022,https://shockbase.org/pics2/500/GST-B500/GST-B500GD-9A.png
 500,GW-500 [2609],GW-500GHJ-8,2003,https://shockbase.org/pics2/500/GW-500/GW-500GHJ-8.png
 500,GW-500 [2688],GW-500A-1V,2004,https://shockbase.org/pics2/500/GW-500/GW-500A-1V.png
-500,GW-500 [2688],GW-500U-1V,2004,https://shockbase.org/pics2/500/GW-500/GW-500U-1V.png
 500,GW-500 [2689],GW-500E-1V,2004,https://shockbase.org/pics2/500/GW-500/GW-500E-1V.png
 500,GW-500 [2689],GW-500J-1,2003,https://shockbase.org/pics2/500/GW-500/GW-500J-1.png
 500,GW-500 [2689],GW-500J-1B,2003,https://shockbase.org/pics2/500/GW-500/GW-500J-1B.png
 500,GW-500 [2689],GW-500J-8,2003,https://shockbase.org/pics2/500/GW-500/GW-500J-8.png
 500,GW-500 [2689],GW-500LJ-1,2003,https://shockbase.org/pics2/500/GW-500/GW-500LJ-1.png
-500,GW-500 [2689],GW-500WCE-1V,2006,https://shockbase.org/pics2/500/GW-500/GW-500WCE-1V.png
 500,GW-500 [2689],GW-510J-1,2003,https://shockbase.org/pics2/500/GW-500/GW-510J-1.png
 500,GW-500 [2689],GW-510J-4,2003,https://shockbase.org/pics2/500/GW-500/GW-510J-4.png
 500,GW-500 [2689],GW-510J-8,2003,https://shockbase.org/pics2/500/GW-500/GW-510J-8.png
+500,GW-500 [2869],GW-500WCE-1V,2006,https://shockbase.org/pics2/500/GW-500/GW-500WCE-1V.png
+500,GW-500 [2870],GW-500U-1V,2004,https://shockbase.org/pics2/500/GW-500/GW-500U-1V.png
 500,GW-M500 [3405],GW-M500A-1,2013,https://shockbase.org/pics2/500/GW-M500/GW-M500A-1.png
 500,GW-M500 [3405],GW-M500BA-1,2014,https://shockbase.org/pics2/500/GW-M500/GW-M500BA-1.png
 500,GW-M500 [3405],GW-M500F-1,2013,https://shockbase.org/pics2/500/GW-M500/GW-M500F-1.png
@@ -3250,6 +3293,8 @@ Series,Subseries,Watch Model,Year,Image URL
 5000,GW-5000 [3159],GW-5000HR-1,2016,https://shockbase.org/pics2/5000/GW-5000/GW-5000HR-1.png
 5000,GW-5000 [3159],GW-5035A-1,2017,https://shockbase.org/pics2/5000/GW-5000/GW-5035A-1.png
 5000,GW-5000 [3159],GW-T5030C-1,2013,https://shockbase.org/pics2/5000/GW-5000/GW-T5030C-1.png
+5000,GW-5000 [3495],GW-5000HS-1,2025,https://shockbase.org/pics2/5000/GW-5000/GW-5000HS-1.png
+5000,GW-5000 [3495],GW-5000HS-7,2025,https://shockbase.org/pics2/5000/GW-5000/GW-5000HS-7.png
 5000,GW-5000 [3495],GW-5000U-1,2021,https://shockbase.org/pics2/5000/GW-5000/GW-5000U-1.png
 5000,MRG-B5000 [3501],MRG-B5000B-1,2022,https://shockbase.org/pics2/5000/MRG-B5000/MRG-B5000B-1.png
 5000,MRG-B5000 [3501],MRG-B5000BA-1,2022,https://shockbase.org/pics2/5000/MRG-B5000/MRG-B5000BA-1.png
@@ -3425,6 +3470,7 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,DW-5600 [3229],DW-5600-Akira(0),,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Akira.png
 5600,DW-5600 [3229],DW-5600-ANA,2004,https://shockbase.org/pics2/5600/DW-5600/DW-5600-ANA.png
 5600,DW-5600 [3229],DW-5600-BAIT20-7,2020,https://shockbase.org/pics2/5600/DW-5600/DW-5600-BAIT20-7.png
+5600,DW-5600 [3229],DW-5600-BAIT24-7,2024,https://shockbase.org/pics2/5600/DW-5600/DW-5600-BAIT24-7.png
 5600,DW-5600 [3229],DW-5600-Barneys,2018,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Barneys.png
 5600,DW-5600 [3229],DW-5600-Beams-2019,2019,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Beams-2019.png
 5600,DW-5600 [3229],DW-5600-Beams-2021,2021,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Beams-2021.png
@@ -3444,6 +3490,7 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,DW-5600 [3229],DW-5600-Ghibli,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Ghibli.png
 5600,DW-5600 [3229],DW-5600-Glay-Exile(0),,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Glay-Exile.png
 5600,DW-5600 [3229],DW-5600-Glay-Red,2019,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Glay-Red.png
+5600,DW-5600 [3229],DW-5600-Glayer,2025,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Glayer.png
 5600,DW-5600 [3229],DW-5600-Golds-Gym(0),,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Golds-Gym.png
 5600,DW-5600 [3229],DW-5600-Harold-Hunter,2017,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Harold-Hunter.png
 5600,DW-5600 [3229],DW-5600-Herno-Laminar,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Herno-Laminar.png
@@ -3466,6 +3513,7 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,DW-5600 [3229],DW-5600-Margaret-Howell-White,2016,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Margaret-Howell-White.png
 5600,DW-5600 [3229],DW-5600-Margaret-Howell-White-2020,2020,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Margaret-Howell-White-2020.png
 5600,DW-5600 [3229],DW-5600-Marvel,2019,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Marvel.png
+5600,DW-5600 [3229],DW-5600-MasterMind(0),,https://shockbase.org/pics2/5600/DW-5600/DW-5600-MasterMind.png
 5600,DW-5600 [3229],DW-5600-Mooneyes,2022,https://shockbase.org/pics2/5600/DW-5600/DW-5600-Mooneyes.png
 5600,DW-5600 [3229],DW-5600-MR_Gentleman,2021,https://shockbase.org/pics2/5600/DW-5600/DW-5600-MR_Gentleman.png
 5600,DW-5600 [3229],DW-5600-MxMxM,2014,https://shockbase.org/pics2/5600/DW-5600/DW-5600-MxMxM.png
@@ -3584,6 +3632,7 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,DW-5600 [3229],DW-5600LCU-1,2017,https://shockbase.org/pics2/5600/DW-5600/DW-5600LCU-1.png
 5600,DW-5600 [3229],DW-5600LG-1,2019,https://shockbase.org/pics2/5600/DW-5600/DW-5600LG-1.png
 5600,DW-5600 [3229],DW-5600LH-4,2020,https://shockbase.org/pics2/5600/DW-5600/DW-5600LH-4.png
+5600,DW-5600 [3229],DW-5600LICH25-5,2025,https://shockbase.org/pics2/5600/DW-5600/DW-5600LICH25-5.png
 5600,DW-5600 [3229],DW-5600LJ-7W,2021,https://shockbase.org/pics2/5600/DW-5600/DW-5600LJ-7W.png
 5600,DW-5600 [3229],DW-5600LP-1,2012,https://shockbase.org/pics2/5600/DW-5600/DW-5600LP-1.png
 5600,DW-5600 [3229],DW-5600LS-2,2020,https://shockbase.org/pics2/5600/DW-5600/DW-5600LS-2.png
@@ -3727,6 +3776,8 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,DW-5600 [3525],DW-5600FF-8,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600FF-8.png
 5600,DW-5600 [3525],DW-5600IN4M23-4,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600IN4M23-4.png
 5600,DW-5600 [3525],DW-5600KH-1,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600KH-1.png
+5600,DW-5600 [3525],DW-5600KHG24-1,2025,https://shockbase.org/pics2/5600/DW-5600/DW-5600KHG24-1.png
+5600,DW-5600 [3525],DW-5600KHK24-1,2025,https://shockbase.org/pics2/5600/DW-5600/DW-5600KHK24-1.png
 5600,DW-5600 [3525],DW-5600KT24-1,2024,https://shockbase.org/pics2/5600/DW-5600/DW-5600KT24-1.png
 5600,DW-5600 [3525],DW-5600NC-5,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600NC-5.png
 5600,DW-5600 [3525],DW-5600NNJ-2,2023,https://shockbase.org/pics2/5600/DW-5600/DW-5600NNJ-2.png
@@ -3813,6 +3864,8 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,DWE-5600 [3508],DWE-5610TM,2023,https://shockbase.org/pics2/5600/DWE-5600/DWE-5610TM.png
 5600,DWE-5600 [3508],DWE-5610TM-BLACK,2023,https://shockbase.org/pics2/5600/DWE-5600/DWE-5610TM-BLACK.png
 5600,DWE-5600 [3508],DWE-5610TM-SKELETON,2023,https://shockbase.org/pics2/5600/DWE-5600/DWE-5610TM-SKELETON.png
+5600,DWE-5600 [3525],DWE-5600JB-1A9,2025,https://shockbase.org/pics2/5600/DWE-5600/DWE-5600JB-1A9.png
+5600,DWE-5600 [3525],DWE-5600UD-1,2025,https://shockbase.org/pics2/5600/DWE-5600/DWE-5600UD-1.png
 5600,DWE-5600 [3525],DWE-5657RE-1,2023,https://shockbase.org/pics2/5600/DWE-5600/DWE-5657RE-1.png
 5600,DWE-5600 [3526],DWE-5640RX-7,2023,https://shockbase.org/pics2/5600/DWE-5600/DWE-5640RX-7.png
 5600,G-5600 [2597],G-5600-1,2002,https://shockbase.org/pics2/5600/G-5600/G-5600-1.png
@@ -3933,6 +3986,7 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,GM-5600 [3229],GM-5600SS-1,2022,https://shockbase.org/pics2/5600/GM-5600/GM-5600SS-1.png
 5600,GM-5600 [3229],GM-5640GEM-1,2023,https://shockbase.org/pics2/5600/GM-5600/GM-5640GEM-1.png
 5600,GM-5600 [3525],GM-5600BRW-1,2024,https://shockbase.org/pics2/5600/GM-5600/GM-5600BRW-1.png
+5600,GM-5600 [3525],GM-5600C2H424-8,2025,https://shockbase.org/pics2/5600/GM-5600/GM-5600C2H424-8.png
 5600,GM-5600 [3525],GM-5600CL-3,2023,https://shockbase.org/pics2/5600/GM-5600/GM-5600CL-3.png
 5600,GM-5600 [3525],GM-5600GC-1,2024,https://shockbase.org/pics2/5600/GM-5600/GM-5600GC-1.png
 5600,GM-5600 [3525],GM-5600RW-1,2024,https://shockbase.org/pics2/5600/GM-5600/GM-5600RW-1.png
@@ -3940,6 +3994,9 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,GM-5600 [3525],GM-5600UB-1,2023,https://shockbase.org/pics2/5600/GM-5600/GM-5600UB-1.png
 5600,GM-5600 [3525],GM-5600UG-9,2023,https://shockbase.org/pics2/5600/GM-5600/GM-5600UG-9.png
 5600,GM-5600 [3525],GM-5600USUB24-1,2024,https://shockbase.org/pics2/5600/GM-5600/GM-5600USUB24-1.png
+5600,GM-5600 [3525],GM-5600YM-8,2025,https://shockbase.org/pics2/5600/GM-5600/GM-5600YM-8.png
+5600,GM-5600 [3525],GM-5600YM-8A8,2025,https://shockbase.org/pics2/5600/GM-5600/GM-5600YM-8A8.png
+5600,GM-5600 [3525],GM-5600YMG-9,2025,https://shockbase.org/pics2/5600/GM-5600/GM-5600YMG-9.png
 5600,GM-S5600 [3489],GM-S5600-1,2020,https://shockbase.org/pics2/5600/GM-S5600/GM-S5600-1.png
 5600,GM-S5600 [3489],GM-S5600BR-5,2022,https://shockbase.org/pics2/5600/GM-S5600/GM-S5600BR-5.png
 5600,GM-S5600 [3489],GM-S5600G-7,2020,https://shockbase.org/pics2/5600/GM-S5600/GM-S5600G-7.png
@@ -3985,6 +4042,7 @@ Series,Subseries,Watch Model,Year,Image URL
 5600,GMD-S5610 [3523],GMD-S5610IT-6,2024,https://shockbase.org/pics2/5600/GMD-S5610/GMD-S5610IT-6.png
 5600,GMD-S5610 [3523],GMD-S5610MA-7,2024,https://shockbase.org/pics2/5600/GMD-S5610/GMD-S5610MA-7.png
 5600,GMD-S5610 [3523],GMD-S5610PK-4,2024,https://shockbase.org/pics2/5600/GMD-S5610/GMD-S5610PK-4.png
+5600,GMD-S5610 [3523],GMD-S5610PP-4,2025,https://shockbase.org/pics2/5600/GMD-S5610/GMD-S5610PP-4.png
 5600,GMD-S5610 [3523],GMD-S5610RS-8,2024,https://shockbase.org/pics2/5600/GMD-S5610/GMD-S5610RS-8.png
 5600,GMD-W5600 [3493],GMD-W5600K-9,2023,https://shockbase.org/pics2/5600/GMD-W5600/GMD-W5600K-9.png
 5600,GMD-W5600 [3493],GMD-W5601K-7,2024,https://shockbase.org/pics2/5600/GMD-W5600/GMD-W5601K-7.png
@@ -4181,6 +4239,7 @@ Series,Subseries,Watch Model,Year,Image URL
 66XX,DW-6600 [1199],DW-6600-Nissan-GTR(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600-Nissan-GTR.png
 66XX,DW-6600 [1199],DW-6600-Williams(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600-Williams.png
 66XX,DW-6600 [1199],DW-6600-Wrangler(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600-Wrangler.png
+66XX,DW-6600 [1199],DW-6600-WrestleMania(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600-WrestleMania.png
 66XX,DW-6600 [1199],DW-6600-Yamaha(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600-Yamaha.png
 66XX,DW-6600 [1199],DW-6600B-1(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600B-1.png
 66XX,DW-6600 [1199],DW-6600B-1-Mini-Disc(0),,https://shockbase.org/pics2/66XX/DW-6600/DW-6600B-1-Mini-Disc.png
@@ -4423,6 +4482,7 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [1289],DW-6900-Post-Pet,2007,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Post-Pet.png
 6900,DW-6900 [1289],DW-6900-SkullCandy,2011,https://shockbase.org/pics2/6900/DW-6900/DW-6900-SkullCandy.png
 6900,DW-6900 [1289],DW-6900-Tommy(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Tommy.png
+6900,DW-6900 [1289],DW-6900-Whiz-Limited(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Whiz-Limited.png
 6900,DW-6900 [1289],DW-6900A-2,2000,https://shockbase.org/pics2/6900/DW-6900/DW-6900A-2.png
 6900,DW-6900 [1289],DW-6900AS-8,2010,https://shockbase.org/pics2/6900/DW-6900/DW-6900AS-8.png
 6900,DW-6900 [1289],DW-6900B-9,2010,https://shockbase.org/pics2/6900/DW-6900/DW-6900B-9.png
@@ -4435,6 +4495,7 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [1289],DW-6900BLM(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900BLM.png
 6900,DW-6900 [1289],DW-6900BLS-9(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900BLS-9.png
 6900,DW-6900 [1289],DW-6900BM-1M,2000,https://shockbase.org/pics2/6900/DW-6900/DW-6900BM-1M.png
+6900,DW-6900 [1289],DW-6900BMB-9(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900BMB-9.png
 6900,DW-6900 [1289],DW-6900BMK-9(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900BMK-9.png
 6900,DW-6900 [1289],DW-6900BMO-9,2000,https://shockbase.org/pics2/6900/DW-6900/DW-6900BMO-9.png
 6900,DW-6900 [1289],DW-6900BPAS-9,2010,https://shockbase.org/pics2/6900/DW-6900/DW-6900BPAS-9.png
@@ -4574,12 +4635,15 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [3230],DW-6900-1V,2016,https://shockbase.org/pics2/6900/DW-6900/DW-6900-1V.png
 6900,DW-6900 [3230],DW-6900-1VCT,2019,https://shockbase.org/pics2/6900/DW-6900/DW-6900-1VCT.png
 6900,DW-6900 [3230],DW-6900-1VLS,2015,https://shockbase.org/pics2/6900/DW-6900/DW-6900-1VLS.png
+6900,DW-6900 [3230],DW-6900-24KARATS-2014,2014,https://shockbase.org/pics2/6900/DW-6900/DW-6900-24KARATS-2014.png
 6900,DW-6900 [3230],DW-6900-24KARATS-2016,2016,https://shockbase.org/pics2/6900/DW-6900/DW-6900-24KARATS-2016.png
 6900,DW-6900 [3230],DW-6900-24KARATS-2019,2019,https://shockbase.org/pics2/6900/DW-6900/DW-6900-24KARATS-2019.png
 6900,DW-6900 [3230],DW-6900-24KARATS-2023,2023,https://shockbase.org/pics2/6900/DW-6900/DW-6900-24KARATS-2023.png
 6900,DW-6900 [3230],DW-6900-7BUFF,2016,https://shockbase.org/pics2/6900/DW-6900/DW-6900-7BUFF.png
 6900,DW-6900 [3230],DW-6900-Amuro-Ray,2017,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Amuro-Ray.png
 6900,DW-6900 [3230],DW-6900-Bape-Coca-Cola,2014,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Bape-Coca-Cola.png
+6900,DW-6900 [3230],DW-6900-BayStars-Black(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-BayStars-Black.png
+6900,DW-6900 [3230],DW-6900-BayStars-White(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-BayStars-White.png
 6900,DW-6900 [3230],DW-6900-BBC22-2,2023,https://shockbase.org/pics2/6900/DW-6900/DW-6900-BBC22-2.png
 6900,DW-6900 [3230],DW-6900-Bump-Of-Chicken,2016,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Bump-Of-Chicken.png
 6900,DW-6900 [3230],DW-6900-Denso,2022,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Denso.png
@@ -4590,6 +4654,7 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [3230],DW-6900-KidCudi,2021,https://shockbase.org/pics2/6900/DW-6900/DW-6900-KidCudi.png
 6900,DW-6900 [3230],DW-6900-Kinashi-Cycle,2019,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Kinashi-Cycle.png
 6900,DW-6900 [3230],DW-6900-Kobelco(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Kobelco.png
+6900,DW-6900 [3230],DW-6900-MasterMind(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-MasterMind.png
 6900,DW-6900 [3230],DW-6900-Monster-Strike,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Monster-Strike.png
 6900,DW-6900 [3230],DW-6900-MxMxM,2019,https://shockbase.org/pics2/6900/DW-6900/DW-6900-MxMxM.png
 6900,DW-6900 [3230],DW-6900-Nagoya-Grampus(0),,https://shockbase.org/pics2/6900/DW-6900/DW-6900-Nagoya-Grampus.png
@@ -4605,6 +4670,7 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [3230],DW-6900AC-2,2013,https://shockbase.org/pics2/6900/DW-6900/DW-6900AC-2.png
 6900,DW-6900 [3230],DW-6900AG22-1,2022,https://shockbase.org/pics2/6900/DW-6900/DW-6900AG22-1.png
 6900,DW-6900 [3230],DW-6900AL22-1,2022,https://shockbase.org/pics2/6900/DW-6900/DW-6900AL22-1.png
+6900,DW-6900 [3230],DW-6900ASRV24A-1,2025,https://shockbase.org/pics2/6900/DW-6900/DW-6900ASRV24A-1.png
 6900,DW-6900 [3230],DW-6900ASSC23-1,2023,https://shockbase.org/pics2/6900/DW-6900/DW-6900ASSC23-1.png
 6900,DW-6900 [3230],DW-6900BAPE20-1,2020,https://shockbase.org/pics2/6900/DW-6900/DW-6900BAPE20-1.png
 6900,DW-6900 [3230],DW-6900BB-1,2016,https://shockbase.org/pics2/6900/DW-6900/DW-6900BB-1.png
@@ -4772,6 +4838,7 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [3230],DW-6935-4,2018,https://shockbase.org/pics2/6900/DW-6900/DW-6935-4.png
 6900,DW-6900 [3230],DW-6935C-4,2018,https://shockbase.org/pics2/6900/DW-6900/DW-6935C-4.png
 6900,DW-6900 [3529],DW-6900AP23-1,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900AP23-1.png
+6900,DW-6900 [3529],DW-6900BI24-1,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900BI24-1.png
 6900,DW-6900 [3529],DW-6900ES23C-9,2023,https://shockbase.org/pics2/6900/DW-6900/DW-6900ES23C-9.png
 6900,DW-6900 [3529],DW-6900FTR23B-5,2023,https://shockbase.org/pics2/6900/DW-6900/DW-6900FTR23B-5.png
 6900,DW-6900 [3529],DW-6900HD-8,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900HD-8.png
@@ -4784,6 +4851,9 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,DW-6900 [3529],DW-6900SHB-7,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900SHB-7.png
 6900,DW-6900 [3529],DW-6900TNT24-7,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900TNT24-7.png
 6900,DW-6900 [3529],DW-6900TNT24-7TSHIRT,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900TNT24-7TSHIRT.png
+6900,DW-6900 [3529],DW-6900TR-1,2025,https://shockbase.org/pics2/6900/DW-6900/DW-6900TR-1.png
+6900,DW-6900 [3529],DW-6900TR-4,2025,https://shockbase.org/pics2/6900/DW-6900/DW-6900TR-4.png
+6900,DW-6900 [3529],DW-6900TR-9,2025,https://shockbase.org/pics2/6900/DW-6900/DW-6900TR-9.png
 6900,DW-6900 [3529],DW-6900TU-1A5,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900TU-1A5.png
 6900,DW-6900 [3529],DW-6900U-1,2024,https://shockbase.org/pics2/6900/DW-6900/DW-6900U-1.png
 6900,DW-6900 [3529],DW-6900UB-9,2023,https://shockbase.org/pics2/6900/DW-6900/DW-6900UB-9.png
@@ -4922,6 +4992,7 @@ Series,Subseries,Watch Model,Year,Image URL
 6900,GW-6900 [3179],GW-6900HR-1,2016,https://shockbase.org/pics2/6900/GW-6900/GW-6900HR-1.png
 6900,GW-6900 [3179],GW-6900K-7,2011,https://shockbase.org/pics2/6900/GW-6900/GW-6900K-7.png
 6900,GW-6900 [3179],GW-6900KG-3,2011,https://shockbase.org/pics2/6900/GW-6900/GW-6900KG-3.png
+6900,GW-6900 [3179],GW-6900MOT24-4,2024,https://shockbase.org/pics2/6900/GW-6900/GW-6900MOT24-4.png
 6900,GW-6900 [3179],GW-6900NASA24-1,2024,https://shockbase.org/pics2/6900/GW-6900/GW-6900NASA24-1.png
 6900,GW-6900 [3179],GW-6900RD-4,2010,https://shockbase.org/pics2/6900/GW-6900/GW-6900RD-4.png
 6900,GW-6900 [3179],GW-6901K-7,2017,https://shockbase.org/pics2/6900/GW-6900/GW-6901K-7.png
@@ -5880,6 +5951,7 @@ Series,Subseries,Watch Model,Year,Image URL
 9500,DW-9500 [1683],DW-9500US-7V,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500US-7V.png
 9500,DW-9500 [1683],DW-9500US-9V,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500US-9V.png
 9500,DW-9500 [1918],DW-9500RR-7V,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500RR-7V.png
+9500,DW-9500 [1918],DW-9501HH-4V(0),,https://shockbase.org/pics2/9500/DW-9500/DW-9501HH-4V.png
 9500,DW-9500 [1918],DW-9550HH-2V,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9550HH-2V.png
 9500,DW-9500 [1919],DW-9500M-8T,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9500M-8T.png
 9500,DW-9500 [1919],DW-9500RX-5T,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500RX-5T.png
@@ -5901,6 +5973,12 @@ Series,Subseries,Watch Model,Year,Image URL
 9500,DW-9500 [1940],DW-9500RL-5T,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500RL-5T.png
 9500,DW-9500 [1940],DW-9500RL-7T,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500RL-7T.png
 9500,DW-9500 [1940],DW-9500RL-9T,1998,https://shockbase.org/pics2/9500/DW-9500/DW-9500RL-9T.png
+9500,DW-9500 [1940],DW-9501HH-2V,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9501HH-2V.png
+9500,DW-9500 [1940],DW-9501HH-4V,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9501HH-4V.png
+9500,DW-9500 [1940],DW-9501HH-9V,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9501HH-9V.png
+9500,DW-9500 [1940],DW-9501RL-1V,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9501RL-1V.png
+9500,DW-9500 [1940],DW-9501RL-4V,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9501RL-4V.png
+9500,DW-9500 [1940],DW-9501RL-9V,1999,https://shockbase.org/pics2/9500/DW-9500/DW-9501RL-9V.png
 9500,DW-9500 [2039],DW-9500BM-1S,2000,https://shockbase.org/pics2/9500/DW-9500/DW-9500BM-1S.png
 9500,DW-9500 [2163],DW-9500V-1V,2000,https://shockbase.org/pics2/9500/DW-9500/DW-9500V-1V.png
 9500,DW-9500 [2163],DW-9500V-2V,2000,https://shockbase.org/pics2/9500/DW-9500/DW-9500V-2V.png
@@ -5911,6 +5989,7 @@ Series,Subseries,Watch Model,Year,Image URL
 9500,GW-9500 [3553],GW-9500-3,2023,https://shockbase.org/pics2/9500/GW-9500/GW-9500-3.png
 9500,GW-9500 [3553],GW-9500KJ-3,2023,https://shockbase.org/pics2/9500/GW-9500/GW-9500KJ-3.png
 9500,GW-9500 [3553],GW-9500MEC-1,2024,https://shockbase.org/pics2/9500/GW-9500/GW-9500MEC-1.png
+9500,GW-9500 [3553],GW-9500MRY-1A9,2025,https://shockbase.org/pics2/9500/GW-9500/GW-9500MRY-1A9.png
 9500,GW-9500 [3553],GW-9500TLC-1,2024,https://shockbase.org/pics2/9500/GW-9500/GW-9500TLC-1.png
 9500,GW-9500 [3553],GW-9501KJ-8,2024,https://shockbase.org/pics2/9500/GW-9500/GW-9501KJ-8.png
 9600,DW-9600 [1845],DW-9600WC-2T,1998,https://shockbase.org/pics2/9600/DW-9600/DW-9600WC-2T.png
