@@ -11,7 +11,7 @@ import threading
 import tkinter as tk
 
 from PIL import Image, ImageTk
-from tkinter import Canvas, Frame
+from tkinter import Canvas, Frame, ttk
 
 # Third-party imports.
 import pandas as pd
@@ -287,7 +287,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
     series_listbox = tk.Listbox(series_frame, exportselection=False)
     series_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
     
-    series_scrollbar = tk.Scrollbar(series_frame, command=series_listbox.yview)
+    series_scrollbar = ttk.Scrollbar(series_frame, orient="vertical", command=series_listbox.yview)
     series_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
     series_listbox.config(yscrollcommand=series_scrollbar.set)
 
@@ -301,7 +301,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
     subseries_listbox = tk.Listbox(subseries_frame, exportselection=False)
     subseries_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-    subseries_scrollbar = tk.Scrollbar(subseries_frame, command=subseries_listbox.yview)
+    subseries_scrollbar = ttk.Scrollbar(subseries_frame, orient="vertical", command=subseries_listbox.yview)
     subseries_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
     subseries_listbox.config(yscrollcommand=subseries_scrollbar.set)
 
@@ -315,7 +315,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
     models_listbox = tk.Listbox(models_frame, exportselection=False)
     models_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-    models_scrollbar = tk.Scrollbar(models_frame, command=models_listbox.yview)
+    models_scrollbar = ttk.Scrollbar(models_frame, orient="vertical", command=models_listbox.yview)
     models_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
     models_listbox.config(yscrollcommand=models_scrollbar.set)
 
