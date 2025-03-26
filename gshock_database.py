@@ -327,7 +327,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
     date_menu.pack(side=tk.LEFT, padx=(0, 0))
 
     # Create the search Entry.
-    search_entry = tk.Entry(top_bar, textvariable=search_var, width=33)
+    search_entry = tk.Entry(top_bar, width=33, textvariable=search_var, bd=0, highlightcolor="black", highlightthickness=1, highlightbackground="black", relief="flat")
     search_entry.pack(side=tk.RIGHT, padx=(0, 0))
 
     # Add placeholder behavior: clear on focus in and restore default text on focus out.
@@ -372,8 +372,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
                     subseries_items = subseries_listbox.get(0, tk.END)
 
                     if target_subseries in subseries_items:
-                        subseries_index = subseries_items.index(
-                            target_subseries)
+                        subseries_index = subseries_items.index(target_subseries)
                         subseries_listbox.selection_clear(0, tk.END)
                         subseries_listbox.selection_set(subseries_index)
                         subseries_listbox.activate(subseries_index)
