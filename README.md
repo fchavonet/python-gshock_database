@@ -1,28 +1,28 @@
-<img  height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-python.png" alt="Python logo">
+<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-python.png" alt="Python logo">
 
 # G-Shock Database
 
 ## 🔖 Table of contents
 
 <details>
-        <summary>
-            CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-        <br>
-        🔧 <a href="#whats-next">What's next?</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    <summary>
+        CLICK TO ENLARGE 😇
+    </summary>
+    📄 <a href="#description">Description</a>
+    <br>
+    🎓 <a href="#objectives">Objectives</a>
+    <br>
+    🔨 <a href="#tech-stack">Tech stack</a>
+    <br>
+    📂 <a href="#files-description">Files description</a>
+    <br>
+    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    🔧 <a href="#whats-next">What's next?</a>
+    <br>
+    ♥️ <a href="#thanks">Thanks</a>
+    <br>
+    👷 <a href="#authors">Authors</a>
 </details>
 
 ## 📄 <span id="description">Description</span>
@@ -109,19 +109,22 @@ python gshock_database.py
 ```
 
 <p align="center">
-    <img src="./assets/images/screenshot.webp">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/images/screenshot-light.webp">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/images/screenshot-dark.webp">
+        <img src="./assets/images/screenshot-light.webp" alt="Screenshots">
+    </picture>
 </p>
 
 ## 🔧 <span id="whats-next">What's next?</span>
 
-- Add a search engine.
-- Implement a sorting menu to organize results by release date or other criteria.
 - Add an update button in the GUI to trigger the scraping process in the background, keeping the database up-to-date.
+- Clean the code.
 
 ## ♥️ <span id="thanks">Thanks</span>
 
-- A big thank you to the [ShockBase](https://shockbase.org) website for their incredible work cataloging G-Shock watches.
-- Thank you to my friends for their feedback and support during the development of this little project.
+- Thank you to the [ShockBase](https://shockbase.org) website for their incredible work cataloging G-Shock watches.
+- A big thank you to my friends Pierre and Yoann, always available to test and provide feedback on my projects.
 
 ## 👷 <span id="authors">Authors</span>
 
