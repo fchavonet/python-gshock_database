@@ -20,21 +20,40 @@ import requests
 from io import BytesIO
 
 
-def update_series(df, series_listbox, selected_series_global, date_filter):
+def apply_filters(df, date_filter, search_var):
     """
-    Update the series Listbox based on the selected date filter.
+    Apply the date filter and the search filter to the DataFrame.
     """
 
-    # Clear the series listbox.
-    series_listbox.delete(0, tk.END)
-
-    # Apply the date filter to the DataFrame.
+    # Apply the date filter.
     if date_filter.get() == "Years":
         filtered_df = df
     elif date_filter.get() == "No date":
         filtered_df = df[df["Year"] == 0]
     else:
         filtered_df = df[df["Year"] == int(date_filter.get())]
+
+    # Apply the search filter if the search field is not empty or equal to default text.
+    search_text = search_var.get().strip()
+    if search_text != "" and search_text != "Search...":
+        filtered_df = filtered_df[
+            filtered_df["Series"].str.contains(search_text, case=False) |
+            filtered_df["Subseries"].str.contains(search_text, case=False) |
+            filtered_df["Watch Model"].str.contains(search_text, case=False)
+        ]
+    return filtered_df
+
+
+def update_series(df, series_listbox, selected_series_global, date_filter, search_var):
+    """
+    Update the series Listbox based on the selected date and search filter.
+    """
+
+    # Clear the series listbox.
+    series_listbox.delete(0, tk.END)
+
+    # Apply filters.
+    filtered_df = apply_filters(df, date_filter, search_var)
 
     # Get unique series from the filtered DataFrame.
     series_list = filtered_df["Series"].unique()
@@ -47,9 +66,9 @@ def update_series(df, series_listbox, selected_series_global, date_filter):
         selected_series_global[0] = None
 
 
-def update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter):
+def update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var):
     """
-    Update the subseries Listbox based on the selected series.
+    Update the subseries Listbox based on the selected series, date and search filter.
     """
 
     # Get the currently selected series from the series_listbox.
@@ -69,12 +88,21 @@ def update_subseries(event, df, series_listbox, subseries_listbox, models_listbo
         # Filter the DataFrame by the selected series.
         filtered_df = df[df["Series"] == selected_series]
 
-        # Apply the date filter if a specific date is selected.
+        # Apply the date filter.
         if date_filter.get() != "Years":
             if date_filter.get() == "No date":
                 filtered_df = filtered_df[filtered_df["Year"] == 0]
             else:
                 filtered_df = filtered_df[filtered_df["Year"] == int(date_filter.get())]
+
+        # Apply the search filter.
+        search_text = search_var.get().strip()
+        if search_text != "" and search_text != "Search...":
+            filtered_df = filtered_df[
+                filtered_df["Series"].str.contains(search_text, case=False) |
+                filtered_df["Subseries"].str.contains(search_text, case=False) |
+                filtered_df["Watch Model"].str.contains(search_text, case=False)
+            ]
 
         # Get the unique subseries associated with the selected series.
         subseries = filtered_df["Subseries"].unique()
@@ -94,9 +122,9 @@ def update_subseries(event, df, series_listbox, subseries_listbox, models_listbo
         status_right_label.config(text="")
 
 
-def update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter):
+def update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var):
     """
-    Update the models Listbox based on the selected subseries.
+    Update the models Listbox based on the selected subseries, date and search filter.
     """
 
     # Get the currently selected subseries from the subseries_listbox.
@@ -115,12 +143,21 @@ def update_models(event, df, subseries_listbox, models_listbox, image_canvas, se
             # Filter the DataFrame for rows that match the selected series and subseries.
             filtered_df = df[(df["Series"] == selected_series) & (df["Subseries"] == selected_subseries)]
 
-            # Apply the date filter if a specific date is selected.
+            # Apply the date filter.
             if date_filter.get() != "Years":
                 if date_filter.get() == "No date":
                     filtered_df = filtered_df[filtered_df["Year"] == 0]
                 else:
                     filtered_df = filtered_df[filtered_df["Year"] == int(date_filter.get())]
+
+            # Apply the search filter.
+            search_text = search_var.get().strip()
+            if search_text != "" and search_text != "Search...":
+                filtered_df = filtered_df[
+                    filtered_df["Series"].str.contains(search_text, case=False) |
+                    filtered_df["Subseries"].str.contains(search_text, case=False) |
+                    filtered_df["Watch Model"].str.contains(search_text, case=False)
+                ]
 
             # Extract the unique models from the filtered DataFrame.
             models = filtered_df["Watch Model"].unique()
@@ -137,18 +174,18 @@ def update_models(event, df, subseries_listbox, models_listbox, image_canvas, se
             status_right_label.config(text="")
 
 
-def update_by_date(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter):
+def update_by_filters(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var):
     """
-    Update the series, subseries and models lists when the date filter is changed.
+    Update the series, subseries and models lists when the date or search filter is changed.
     """
 
-    update_series(df, series_listbox, selected_series_global, date_filter)
+    update_series(df, series_listbox, selected_series_global, date_filter, search_var)
 
     # If a series is selected, update subseries and models.
     if series_listbox.curselection():
-        update_subseries(None, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter)
+        update_subseries(None, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
         if subseries_listbox.curselection():
-            update_models(None, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter)
+            update_models(None, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
     else:
         # If no series is selected, clear subseries, models and image.
         subseries_listbox.delete(0, tk.END)
@@ -247,31 +284,64 @@ def setup_ui(root, df, selected_series_global, image_cache):
     container = tk.Frame(root)
     container.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=10, pady=(10, 10))
 
-    # Top bar for date selection.
+    # Top bar for date selection and search.
     top_bar = tk.Frame(container)
     top_bar.pack(side=tk.TOP, fill=tk.X, pady=(0, 10))
 
     # Prepare the list of dates.
     dates = sorted(df["Year"].unique())
-    numeric_dates = sorted([d for d in dates if d != 0])
+    numeric_dates = []
+    for d in dates:
+        if d != 0:
+            numeric_dates.append(d)
     if 0 in dates:
-        dates_options = ["Years"] + [str(d) for d in numeric_dates] + ["No date"]
+        dates_options = ["Years"]
+        for d in numeric_dates:
+            dates_options.append(str(d))
+        dates_options.append("No date")
     else:
-        dates_options = ["Years"] + [str(d) for d in numeric_dates]
+        dates_options = ["Years"]
+        for d in numeric_dates:
+            dates_options.append(str(d))
 
     # Variable for the date filter.
     date_filter = tk.StringVar()
     date_filter.set("Years")
 
-    # Définir la commande directement dans le constructeur de l'OptionMenu.
+    # Variable for the search field.
+    search_var = tk.StringVar()
+    search_var.set("Search...")
+
+    # Update the UI when the selected date changes.
     def on_date_change(_):
-        update_by_date(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter)
+        update_by_filters(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
+
+    # Create and pack the date selection OptionMenu.
     date_menu = tk.OptionMenu(top_bar, date_filter, *dates_options, command=on_date_change)
     date_menu.pack(side=tk.LEFT, padx=(0, 0))
 
-    # Placeholder pour un éventuel élément à droite.
+    # Create the search Entry.
+    search_entry = tk.Entry(top_bar, textvariable=search_var, width=33)
+    search_entry.pack(side=tk.RIGHT, padx=(0, 0))
+
+    # Bind the Enter key to trigger the search.
+    search_entry.bind("<Return>", lambda event: update_by_filters(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var))
+    
+    # Add placeholder behavior: clear on focus in and restore default text on focus out.
+    def on_entry_focus_in(event):
+        if search_var.get() == "Search...":
+            search_var.set("")
+
+    def on_entry_focus_out(event):
+        if search_var.get().strip() == "":
+            search_var.set("Search...")
+
+    search_entry.bind("<FocusIn>", on_entry_focus_in)
+    search_entry.bind("<FocusOut>", on_entry_focus_out)
+
+    # Placeholder for a possible element on the left.
     placeholder = tk.Label(top_bar, text="")
-    placeholder.pack(side=tk.RIGHT)
+    placeholder.pack(side=tk.LEFT)
 
     # Main frame for the columns.
     main_frame = tk.Frame(container)
@@ -286,7 +356,7 @@ def setup_ui(root, df, selected_series_global, image_cache):
 
     series_listbox = tk.Listbox(series_frame, exportselection=False)
     series_listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-    
+
     series_scrollbar = ttk.Scrollbar(series_frame, orient="vertical", command=series_listbox.yview)
     series_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
     series_listbox.config(yscrollcommand=series_scrollbar.set)
@@ -342,13 +412,13 @@ def setup_ui(root, df, selected_series_global, image_cache):
     status_right_label = tk.Label(status_frame, text="", anchor=tk.E)
     status_right_label.pack(side=tk.RIGHT)
 
-    # Bind selection events to their respective update functions, including the date filter.
-    series_listbox.bind("<<ListboxSelect>>", lambda event: update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter))
-    subseries_listbox.bind("<<ListboxSelect>>", lambda event: update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter))
+    # Bind selection events to their respective update functions, including the filters.
+    series_listbox.bind("<<ListboxSelect>>", lambda event: update_subseries(event, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var))
+    subseries_listbox.bind("<<ListboxSelect>>", lambda event: update_models(event, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var))
     models_listbox.bind("<<ListboxSelect>>", lambda event: display_image(event, df, models_listbox, image_canvas, image_cache, image_padding, status_left_label, status_right_label))
 
     # Populate the series listbox initially using update_series.
-    update_series(df, series_listbox, selected_series_global, date_filter)
+    update_series(df, series_listbox, selected_series_global, date_filter, search_var)
 
     return image_canvas
 
