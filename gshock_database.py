@@ -179,7 +179,7 @@ def update_by_filters(df, series_listbox, subseries_listbox, models_listbox, ima
     Update the series, subseries and models lists when the date or search filter is changed.
     """
 
-    update_series(df, series_listbox, selected_series_global, date_filter, search_var)
+    update_series(df, series_listbox, selected_series_global,date_filter, search_var)
 
     # If a series is selected, update subseries and models.
     if series_listbox.curselection():
@@ -257,6 +257,9 @@ def display_image(event, df, models_listbox, image_canvas, image_cache, image_pa
         model_year = df[df["Watch Model"] == selected_model]["Year"].values[0]
 
         def show_image():
+            """
+            """
+
             # Fetch and display the image in the canvas.
             tk_image = fetch_image(image_url, image_cache, image_canvas, image_padding)
             image_canvas.delete("all")
@@ -312,8 +315,11 @@ def setup_ui(root, df, selected_series_global, image_cache):
     search_var = tk.StringVar()
     search_var.set("Search...")
 
-    # Update the UI when the selected date changes.
     def on_date_change(_):
+        """
+        Update the UI when the selected date changes.
+        """
+
         update_by_filters(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
 
     # Create and pack the date selection OptionMenu.
@@ -324,9 +330,6 @@ def setup_ui(root, df, selected_series_global, image_cache):
     search_entry = tk.Entry(top_bar, textvariable=search_var, width=33)
     search_entry.pack(side=tk.RIGHT, padx=(0, 0))
 
-    # Bind the Enter key to trigger the search.
-    search_entry.bind("<Return>", lambda event: update_by_filters(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var))
-    
     # Add placeholder behavior: clear on focus in and restore default text on focus out.
     def on_entry_focus_in(event):
         if search_var.get() == "Search...":
@@ -338,6 +341,63 @@ def setup_ui(root, df, selected_series_global, image_cache):
 
     search_entry.bind("<FocusIn>", on_entry_focus_in)
     search_entry.bind("<FocusOut>", on_entry_focus_out)
+
+    def auto_select_exact_match():
+        """
+        Function to auto-select exact match
+        """
+
+        search_text = search_var.get().strip()
+        if search_text != "" and search_text != "Search...":
+            exact_df = df[df["Watch Model"].str.lower() == search_text.lower()]
+
+            if len(exact_df) == 1:
+                row = exact_df.iloc[0]
+                target_series = row["Series"]
+                target_subseries = row["Subseries"]
+                target_model = row["Watch Model"]
+
+                # Select the series.
+                series_items = series_listbox.get(0, tk.END)
+
+                if target_series in series_items:
+                    series_index = series_items.index(target_series)
+                    series_listbox.selection_clear(0, tk.END)
+                    series_listbox.selection_set(series_index)
+                    series_listbox.activate(series_index)
+                    selected_series_global[0] = target_series
+                    update_subseries(None, df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
+
+                    # Select the subseries.
+                    subseries_items = subseries_listbox.get(0, tk.END)
+
+                    if target_subseries in subseries_items:
+                        subseries_index = subseries_items.index(
+                            target_subseries)
+                        subseries_listbox.selection_clear(0, tk.END)
+                        subseries_listbox.selection_set(subseries_index)
+                        subseries_listbox.activate(subseries_index)
+                        update_models(None, df, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
+
+                        # Select the model.
+                        model_items = models_listbox.get(0, tk.END)
+
+                        if target_model in model_items:
+                            model_index = model_items.index(target_model)
+                            models_listbox.selection_clear(0, tk.END)
+                            models_listbox.selection_set(model_index)
+                            models_listbox.activate(model_index)
+                            display_image(None, df, models_listbox, image_canvas, image_cache, image_padding, status_left_label, status_right_label)
+
+    def on_search(event):
+        """
+        Bind the Enter key to trigger the search and auto-select if exact match.
+        """
+
+        update_by_filters(df, series_listbox, subseries_listbox, models_listbox, image_canvas, selected_series_global, status_left_label, status_right_label, date_filter, search_var)
+        auto_select_exact_match()
+
+    search_entry.bind("<Return>", on_search)
 
     # Placeholder for a possible element on the left.
     placeholder = tk.Label(top_bar, text="")
