@@ -108,6 +108,8 @@ python shockbase_scraper.py
 python gshock_database.py
 ```
 
+<br>
+
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/images/screenshot-light.webp">
@@ -118,7 +120,7 @@ python gshock_database.py
 
 ## 🔧 <span id="whats-next">What's next?</span>
 
-- Add an update button in the GUI to trigger the scraping process in the background, keeping the database up-to-date.
+- Add an update button to trigger the scraping process in the background, keeping the database up-to-date.
 - Clean the code.
 
 ## ♥️ <span id="thanks">Thanks</span>
