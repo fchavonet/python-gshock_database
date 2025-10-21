@@ -1,37 +1,12 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-python.png" alt="Python logo">
-
 # G-Shock Database
 
-## 🔖 Table of contents
-
-<details>
-    <summary>
-        CLICK TO ENLARGE 😇
-    </summary>
-    📄 <a href="#description">Description</a>
-    <br>
-    🎓 <a href="#objectives">Objectives</a>
-    <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
-    <br>
-    📂 <a href="#files-description">Files description</a>
-    <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-    <br>
-    🔧 <a href="#whats-next">What's next?</a>
-    <br>
-    ♥️ <a href="#thanks">Thanks</a>
-    <br>
-    👷 <a href="#authors">Authors</a>
-</details>
-
-## 📄 <span id="description">Description</span>
+## Description
 
 This project is an application designed to explore the world of Casio G-Shock watches. As a fan of the brand, I wanted to create a tool that gathers data about these watches and makes it easily accessible. The development started with a web scraper that retrieves detailed information from the [ShockBase](https://shockbase.org) website, one of the most comprehensive resources for G-Shock enthusiasts. The collected data is then presented through a graphical user interface that allows users to browse, search, filter information, and view photos of the products.
 
 This project was inspired by my passion for G-Shock watches and serves as a tool for learning and exploration. All credit for the database content belongs to [ShockBase](https://shockbase.org), and the app is not intended for public distribution to avoid competing with their excellent work.
 
-## 🎓 <span id="objectives">Objectives</span>
+## Objectives
 
 - Enhance my skills in web scraping using Python.
 - Develop a graphical user interface (GUI) to present and interact with the collected data.
@@ -39,17 +14,11 @@ This project was inspired by my passion for G-Shock watches and serves as a tool
 - Explore user interface design principles for an intuitive browsing experience.
 - Integrate web scraping and GUI development into a cohesive and functional application.
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## Tech Stack
 
-<p align="left">
-    <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
-    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
-    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
-    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
-    <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
-</p>
+![Python badge](https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge)
 
-## 📂 <span id="files-description">File description</span>
+## File Description
 
 | **FILE**               | **DESCRIPTION**                                       |
 | :--------------------: | ----------------------------------------------------- |
@@ -61,9 +30,9 @@ This project was inspired by my passion for G-Shock watches and serves as a tool
 | `.gitignore`           | Specifies files and folders to be ignored by Git.     |
 | `README.md`            | The README file you are currently reading 😉.         |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## Installation & Usage
 
-**Installation:**
+### Installation
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -74,27 +43,29 @@ This project was inspired by my passion for G-Shock watches and serves as a tool
 git clone https://github.com/fchavonet/python-gshock_database.git
 ```
 
-2. Open the repository you've just cloned.
+2. Open the cloned repository.
 
-4. Create a virtual environment:
+3. Create a virtual environment:
 
 ```
 python3 -m venv venv
 ```
 
-5. Activate the virtual environment:
+4. Activate the virtual environment:
 
 ```
 source venv/bin/activate
 ```
 
-6. Install dependencies:
+> On Windows: `venv\Scripts\activate`.
+
+5. Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-**How to use:**
+### Usage
 
 1. Run the `shockbase_scraper.py` script to scrape the data:
 
@@ -108,27 +79,25 @@ python shockbase_scraper.py
 python gshock_database.py
 ```
 
-<br>
-
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/images/screenshot-light.webp">
-        <source media="(prefers-color-scheme: light)" srcset="./assets/images/screenshot-dark.webp">
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/images/screenshot-dark.webp">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/images/screenshot-light.webp">
         <img src="./assets/images/screenshot-light.webp" alt="Screenshots">
     </picture>
 </p>
 
-## 🔧 <span id="whats-next">What's next?</span>
+## What's Next?
 
 - Add an update button to trigger the scraping process in the background, keeping the database up-to-date.
 - Clean the code.
 
-## ♥️ <span id="thanks">Thanks</span>
+## Thanks
 
 - Thank you to the [ShockBase](https://shockbase.org) website for their incredible work cataloging G-Shock watches.
 - A big thank you to my friends Pierre and Yoann, always available to test and provide feedback on my projects.
 
-## 👷 <span id="authors">Authors</span>
+## Author(s)
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)
