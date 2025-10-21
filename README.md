@@ -79,6 +79,7 @@ python shockbase_scraper.py
 python gshock_database.py
 ```
 
+<br>
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./assets/images/screenshot-dark.webp">
